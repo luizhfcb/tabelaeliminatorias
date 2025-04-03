@@ -1,0 +1,121 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1200px; 
+    width: 100%;
+}
+.jogos {
+    background-color: #f8f8f8;
+    padding: 20px; 
+    border-radius: 10px;
+    box-sizing: border-box; 
+}
+.tabela {
+    width: 65%; 
+}
+.jogos {
+    width: 30%; 
+    font-size: 0.9em;
+    margin-top: 20%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 20px; 
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px; 
+}
+th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+
+td:nth-child(1),
+td:nth-child(2) {
+    background-color: white;
+}
+
+td:nth-child(3),
+td:nth-child(5),
+td:nth-child(7),
+td:nth-child(9),
+td:nth-child(11) {
+    background-color: #e0e0e0; 
+}
+
+td:nth-child(4),
+td:nth-child(6),
+td:nth-child(8),
+td:nth-child(10),
+td:nth-child(12) {
+    background-color: #f8f8f8; 
+}
+
+.ult-jogos span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 2px;
+    border-radius: 50%;
+}
+
+.ult-jogos {
+    white-space: nowrap;
+}
+
+.vitoria { background-color: green; }
+.empate { background-color: gray; }
+.derrota { background-color: red; }
+.jogos ul {
+    list-style: none;
+    padding: 0;
+}
+.jogos li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 5px 15px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-weight: bold;
+    background: linear-gradient(to right, #e0e0e0, #f8f8f8);
+}
+.bandeira {
+    width: 20px;
+    height: 14px;
+}
+
+#top3 {
+    color: rgb(0, 0, 255);
+}
+
+#top4 {
+    color: rgb(0, 255, 255);
+}
+
+#green {
+    color: green;
+}
+
+#red {
+    color: red;
+}
